@@ -2,3 +2,8 @@
 function greet() {
     console.log("Hello World!");
 }
+
+////function greet() {
+  for(i=1,100>0,i++){
+    console.log("Hello World!");
+  }
