@@ -17,3 +17,6 @@ function greet() {
 
 
 
+  function Latif() {
+    console.log("Hello Latif");
+  }
