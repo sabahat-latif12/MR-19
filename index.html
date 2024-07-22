@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    ,<link rel="stylesheet" href="./css/style.css">
+    <!-- <style>
         h1{
             color:aquamarine ;
             text-align: center;
@@ -39,48 +40,32 @@
             background-color: black;
            float: right;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
     <h1>sabahat</h1>
     <h1>صباحت</h1><br>
-    <div id="id1">Sabahat</div>
-    <div id="id2">صباحت</div>
+<br><br>
+<div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
 
-    <!-- <form action="" >
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-    
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-    
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male" checked>
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br><br>
-    
-        <label for="interests">Interests:</label><br>
-        <input type="checkbox" id="music" name="interests"  value="music">
-        <label for="music">Music</label><br>
-        <input type="checkbox" id="movies" name="interests" value="movies">
-        <label for="movies">Movies</label><br>
-        <input type="checkbox" id="books" name="interests" value="books">
-        <label for="books">Books</label><br><br>
-    
-        <label for="country">Country:</label><br>
-        <select id="country" name="country">
-            <option value="usa">USA</option>
-            <option value="canada">Canada</option>
-            <option value="uk">UK</option>
-            <option value="australia">Australia</option>
-        </select><br><br>
-    
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="5"></textarea><br><br>
-    
-        <input type="submit" value="Submit">
-    </form> -->
-</body>
+   
+   </body>
 </html>
